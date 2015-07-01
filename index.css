@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    color: #2a355a;
+    text-shadow: 0px 0px 1px #FFFFFF;
+}
+.pic1 {
+    width: 50%;
+    text-align: center;
+}
+.image-container {
+    text-align: center;
+}
+body {
+    background-image: url("bg") ;
+}
