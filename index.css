@@ -1,14 +1,17 @@
 .header {
     text-align: center;
-    color: #2a355a;
-    text-shadow: 0px 0px 1px #FFFFFF;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #000000;
 }
 .pic1 {
-    width: 50%;
-    text-align: center;
+    width: 45%;
+    text-align: left;
+    float: left;
+    margin-right: 5px;
 }
-.image-container {
-    text-align: center;
+.pic2 {
+    width: 50%;
+    text-align: right;
 }
 body {
     background-image: url("bg") ;
