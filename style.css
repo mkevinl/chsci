@@ -70,8 +70,7 @@ table {
 }
 .active {
     color:red;
-    font-weight: bolder;
-    font-size: 150%;
+    text-decoration:underline;
 }
 table tr:hover {
     background-color:white;
