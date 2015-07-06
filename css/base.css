@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px #000000;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+li {
+    font-weight: bold;
+    margin: 0px 5px;
+}
+.header {
+    margin: 30px 0px;
+}
