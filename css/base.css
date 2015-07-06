@@ -1,3 +1,6 @@
+body {
+    background-image: url("../media/footer_lodyas.png") ;
+}
 h1 {
     text-align: center;
     color: #FFFFFF;
@@ -5,17 +8,26 @@ h1 {
     font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
     font-size: 50px;
 }
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0px;
-}
-li {
-    font-weight: bold;
-    margin: 0px 5px;
-}
 .header {
     margin: 30px 0px;
+}
+.logo {
+    width: 9%;
+    float: left;
+    margin: -18px 0px 0px 10px;
+}
+.nav-bar {
+    font-size: 120%;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    margin: 10px 0px;
+}
+h3 {
+    font-size: 200%;
+    margin: 5px 0px 15px 0px;
+}
+p {
+    color: white;
+    margin: 20px 0px;
 }

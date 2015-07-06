@@ -11,20 +11,9 @@
     width: 80%;
     margin: 0 auto;
 }
-body {
-    background-image: url("../media/footer_lodyas.png") ;
-}
 .text {
-    color: white;
-    margin: 0 20px;
-}
-.tofc {
-    font-size: 120%;
-    text-align: center;
-    background-color: white;
-    border: 3px solid black;
-}
 
+}
 .text-container {
     width: 80%;
     margin: 0 auto;
@@ -66,17 +55,10 @@ table {
 table tr:hover {
     background-color: gray;
 }
-.logo {
-    width: 9%;
-    float: left;
-    margin: -18px 0px 0px 10px;
-    
-}
-
 .description {
     color: white;
     width: 85%;
-    margin: 0 auto;
+    margin: 0px auto 15px auto;
 }
 .episode img {
     height: 100px;
@@ -110,4 +92,18 @@ table tr:hover {
 .map-container iframe {
     display: block;
     margin: 0 auto;
+}
+nav li {
+    font-weight: bold;
+    margin: 0px 5px;
+}
+nav ol {
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
 }
