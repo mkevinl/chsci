@@ -29,12 +29,12 @@ body {
 }
 .nav-bar a {
 	transition:all linear 0.1s;
-	color: rgb(255,255,255);
+	color: #3DA0FF;
 	margin: 0px 20px;
 }
 .nav-bar li:hover > a{
 	text-decoration:none;
-	color:#3D9FFF;
+	color:#65B3FF;
 }
 nav ol {
 	width: 80%;
@@ -58,24 +58,24 @@ table {
 	background: white;
 }
 h1 {
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-font-size: 50px;
-font-style: normal;
-font-variant: normal;
-font-weight: 500;
-text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
 	color: #FFFFFF;
 	text-shadow: 0px 0px 8px #000000;
 	margin: 0 auto;
 }
 p {
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-font-size: 14px;
-font-style: normal;
-font-variant: normal;
-font-weight: 400;
-line-height: 20px;
-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
 	margin: 10px 0px;
 }
 .title {
