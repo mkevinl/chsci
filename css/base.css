@@ -1,85 +1,93 @@
 body {
-    background-image: url("../media/footer_lodyas.png") ;
+	background-image: url("../media/footer_lodyas.png") ;
 }
 .container {
-    width: 960px;
-    margin: 132px auto 200px auto;
+	width: 960px;
+	margin: 132px auto 200px auto;
 }
 .header {
-    margin: 0px auto;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: rgba(0,0,0,0.8);
+	margin: 0px auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
 }
 .ci-header {
-    width: 100%;
-    margin: 35px auto 0px 0px;
+	width: 100%;
+	margin: 35px auto 0px 0px;
 }
 .logo {
-    width: 100px;
-    float: left;
-    margin: 16px 0px 16px 10px;
+	width: 100px;
+	float: left;
+	margin: 16px 0px 16px 10px;
 }
 .nav-bar {
-    font-size: 120%;
-    width: 100%;
-    margin: 0 auto;
+	font-size: 120%;
+	width: 100%;
+	margin: 0 auto;
 }
-nav li {
-    font-weight: bold;
-    margin: 0px 5px;
-    width: 100%;
+.nav-bar a {
+	transition:all linear 0.1s;
+	color: rgb(255,255,255);
+	margin: 0px 20px;
+}
+.nav-bar li:hover > a{
+	text-decoration:none;
+	color:#3D9FFF;
 }
 nav ol {
-    width: 80%;
-    margin: 10px auto;
-    text-align: center;
+	width: 80%;
+	margin: 10px auto;
+	text-align: center;
 }
 h3 {
-    font-size: 200%;
-    margin: 5px 0px 15px 0px;
+	font-size: 200%;
+	margin: 5px 0px 15px 0px;
 }
 a {
-    text-decoration: none;
-    color: #3D9FFF;
-    font-weight: bold;
-    text-shadow: 0px 0px 1px black;
+	text-decoration: none;
+	color: #3D9FFF;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px black;
 }
 table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 0 auto;
-    background: white;
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto;
+	background: white;
 }
 h1 {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-	font-size: 50px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 8px #000000;
-    margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+font-size: 50px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 8px #000000;
+	margin: 0 auto;
 }
 p {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-	color: white;
-    margin: 10px 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 20px;
+color: white;
+	margin: 10px 0px;
 }
 .title {
-    font-family: 'Gills Sans', 'Gils Sans MT', Calibri, sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0px;
-    text-shadow: 0px 0px 8px #000000;
+	font-family: 'Gills Sans', 'Gils Sans MT', Calibri, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0px;
+	text-shadow: 0px 0px 8px #000000;
+}
+.clearfix {
+	display: block;
+	clear: both;
 }
