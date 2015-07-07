@@ -1,24 +1,41 @@
 body {
     background-image: url("../media/footer_lodyas.png") ;
 }
+.container {
+    width: 960px;
+    margin: 132px auto 200px auto;
+}
 .header {
-    margin: 30px auto;
+    margin: 0px auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
 }
 .ci-header {
     width: 100%;
-    margin: 0 auto;
+    margin: 35px auto 0px 0px;
 }
 .logo {
-    width: 9%;
+    width: 100px;
     float: left;
-    margin: -18px 0px 0px 10px;
+    margin: 16px 0px 16px 10px;
 }
 .nav-bar {
     font-size: 120%;
+    width: 100%;
+    margin: 0 auto;
+}
+nav li {
+    font-weight: bold;
+    margin: 0px 5px;
+    width: 100%;
+}
+nav ol {
+    width: 80%;
+    margin: 10px auto;
     text-align: center;
-    background-color: rgba(0,86, 172,0.7);
-    border: 3px solid black;
-    margin: 10px 0px;
 }
 h3 {
     font-size: 200%;
