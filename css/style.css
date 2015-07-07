@@ -17,10 +17,6 @@
     width: 80%;
     margin: 0 auto;
 }
-.container {
-    width: 960px;
-    margin: 0 auto 300px auto;
-}
 nav li {
     display: inline;
 }
@@ -89,15 +85,12 @@ table tr:hover {
     display: block;
     margin: 0 auto;
 }
-nav li {
-    font-weight: bold;
-    margin: 0px 5px;
-}
-nav ol {
-    margin: 10px;
-}
 .description-title {
     color: white;
     width: 85%;
     margin: 0px auto 15px auto;
+}
+.video-container {
+    margin: 10px auto;
+    text-align: center;
 }
