@@ -1,15 +1,12 @@
 body {
     background-image: url("../media/footer_lodyas.png") ;
 }
-h1 {
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 8px #000000;
-    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
-    font-size: 50px;
-}
 .header {
-    margin: 30px 0px;
+    margin: 30px auto;
+}
+.ci-header {
+    width: 100%;
+    margin: 0 auto;
 }
 .logo {
     width: 9%;
@@ -27,10 +24,6 @@ h3 {
     font-size: 200%;
     margin: 5px 0px 15px 0px;
 }
-p {
-    color: white;
-    margin: 20px 0px;
-}
 a {
     text-decoration: none;
     color: #3D9FFF;
@@ -42,4 +35,34 @@ table {
     width: 80%;
     margin: 0 auto;
     background: white;
+}
+h1 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px #000000;
+    margin: 0 auto;
+}
+p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+    margin: 10px 0px;
+}
+.title {
+    font-family: 'Gills Sans', 'Gils Sans MT', Calibri, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-shadow: 0px 0px 8px #000000;
 }

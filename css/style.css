@@ -1,11 +1,13 @@
 .pic1 {
-    width: 45%;
-    height: 282px;
+    width: 380px;
+    height: 250px;
     float: left;
+    border: 2px solid white;
 }
 .pic2 {
-    width: 55%;
-    height: 100%;
+    width: 380px;
+    height: 250px;
+    border: 2px solid white;
 }
 .image-container {
     width: 80%;
@@ -40,6 +42,7 @@ table tr:hover {
     background-color: gray;
 }
 .description {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     color: white;
     width: 85%;
     margin: 0px auto 15px auto;
@@ -50,10 +53,12 @@ table tr:hover {
     border-right: 1px solid black;
 }
 .episode h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     text-decoration: none;
     color: white;
-    margin: 0 0 0 145px;
+    margin: 0 0 0 140px;
     height: 100px;
+    font-size: 15px;
 }
 .episode h4 {
     text-decoration: none;
@@ -65,9 +70,16 @@ table tr:hover {
     background-color: #8B8B8B;
     margin: 7px;
     border: 1px solid black;
+    height: 100px;
 }
 .episode b {
     font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    display: block;
+    margin-top: 8px;
+}
+.episode p {
+    line-height: 18px;
 }
 .episode-container {
     width: 70%;
@@ -84,10 +96,8 @@ nav li {
 nav ol {
     margin: 10px;
 }
-h2 {
-    text-align: center;
+.description-title {
     color: white;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 10px 0px;
+    width: 85%;
+    margin: 0px auto 15px auto;
 }
