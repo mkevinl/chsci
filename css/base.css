@@ -3,7 +3,9 @@ body {
 }
 .container {
 	width: 960px;
-	margin: 140px auto 200px auto;
+	margin: 140px auto 100px auto;
+	left: auto;
+	top: 0px;
 }
 .header {
 	margin: 0px auto;
@@ -52,12 +54,6 @@ a {
 	font-weight: bold;
 	text-shadow: 0px 0px 1px black;
 }
-table {
-	border-collapse: collapse;
-	width: 80%;
-	margin: 0 auto;
-	background: white;
-}
 h1 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 	font-size: 50px;
@@ -74,7 +70,7 @@ p {
 	font-size: 15px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 400;
+	font-weight: lighter;
 	line-height: 20px;
 	color: white;
 	margin: 10px 0px;
@@ -88,7 +84,7 @@ p {
 	margin: 10px 0px;
 	text-shadow: 0px 0px 8px #000000;
 }
-.clearfix {
+.clearfix:after {
 	display: block;
 	clear: both;
 }

@@ -90,3 +90,23 @@ table tr:hover {
 	margin: 10px auto;
 	text-align: center;
 }
+.footer-pages , .footer-numbers , .footer-letters {
+	display: inline;
+}
+.footer li {
+	margin: 10px 10px;
+}
+.footer-container {
+	margin: 0 auto;
+	width: 80%;
+}
+.footer ul {
+	margin: 0 auto;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	width: 120%;
+	margin: 10px auto;
+	background: #C2E1FF;
+}
