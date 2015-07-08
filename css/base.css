@@ -3,15 +3,16 @@ body {
 }
 .container {
 	width: 960px;
-	margin: 132px auto 200px auto;
+	margin: 140px auto 200px auto;
 }
 .header {
 	margin: 0px auto;
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 100%;
+	width:100%;
 	background-color: rgba(0,0,0,0.7);
+	border-bottom: 2px solid white;
 }
 .ci-header {
 	width: 100%;
@@ -34,7 +35,7 @@ body {
 }
 .nav-bar li:hover > a{
 	text-decoration:none;
-	color:#65B3FF;
+	color:#C2E1FF;
 }
 nav ol {
 	width: 80%;
