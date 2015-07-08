@@ -106,7 +106,7 @@ table tr:hover {
 }
 table {
 	border-collapse: collapse;
-	width: 120%;
+	width: 100%;
 	margin: 10px auto;
 	background: #C2E1FF;
 }
