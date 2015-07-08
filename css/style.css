@@ -27,9 +27,6 @@ nav li a {
 a:active {
 	color: purple;
 }
-.active {
-	color: red;
-}
 th, td {
 	border: 2px solid black;
 }
