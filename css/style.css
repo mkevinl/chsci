@@ -108,5 +108,7 @@ table {
 	border-collapse: collapse;
 	width: 90%;
 	margin: 10px auto;
-	background: #C2E1FF;
+}
+.staff {
+	background-color: white;
 }

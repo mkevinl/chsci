@@ -3,7 +3,7 @@ body {
 }
 .container {
 	width: 960px;
-	margin: 140px auto 300px auto;
+	margin: 150px auto 300px auto;
 	left: auto;
 	top: 0px;
 }
@@ -48,11 +48,13 @@ h3 {
 	font-size: 200%;
 	margin: 5px 0px 15px 0px;
 }
-a {
+p a{
 	text-decoration: none;
 	color: #3D9FFF;
-	font-weight: bold;
-	text-shadow: 0px 0px 1px black;
+}
+table a {
+	text-decoration: none;
+	color: #0381FB;
 }
 h1 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
