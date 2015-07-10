@@ -13,7 +13,7 @@
 	width: 80%;
 	margin: 0 auto;
 }
-.text-container {
+section > article > h2, section > article >p {
 	width: 80%;
 	margin: 0 auto;
 }
@@ -27,10 +27,13 @@ nav li a {
 a:active {
 	color: purple;
 }
-th, td {
+.staff tr, .staff td {
 	border: 2px solid black;
 }
-table tr:hover {
+.staff td {
+	padding-left: 5px;
+}
+.staff tr:hover {
 	background-color: gray;
 }
 .description {
@@ -52,30 +55,28 @@ table tr:hover {
 	height: 100px;
 	font-size: 15px;
 }
-.episode h4 {
-	text-decoration: none;
-	color: white;
-	margin: 0 0 0 3px;
-	height: 100px;
-}
 .episode {
 	background-color: #8B8B8B;
 	margin: 7px;
 	border: 1px solid black;
 	height: 100px;
+	text-decoration: none;
 }
 .episode b {
 	font-size: 150%;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 	display: block;
 	margin-top: 8px;
+	text-decoration: none;
 }
-.episode p {
+.episode a {
 	line-height: 18px;
+	text-decoration: none;
 }
 .episode-container {
 	width: 70%;
 	margin: 0 auto;
+	text-decoration: none;
 }
 .map-container iframe {
 	display: block;
@@ -86,29 +87,51 @@ table tr:hover {
 	width: 85%;
 	margin: 0px auto 15px auto;
 }
-.video-container {
+.video {
 	margin: 10px auto;
 	text-align: center;
 }
-.footer-pages , .footer-numbers , .footer-letters {
-	display: inline;
+.staff {
+	border-collapse: collapse;
+	width: 90%;
+	margin: 10px auto 0px auto;
+	background-color: white;
 }
-.footer li {
-	margin: 10px 10px;
+.active {
+	text-decoration: underline
+}
+.mission {
+	margin-bottom: 20px;
 }
 .footer-container {
 	margin: 0 auto;
-	width: 80%;
-}
-.footer ul {
-	margin: 0 auto;
-	text-align: center;
-}
-table {
-	border-collapse: collapse;
 	width: 90%;
-	margin: 10px auto;
 }
-.staff {
-	background-color: white;
+/*.footer table {*/
+/*	margin: 30px auto 0px auto;*/
+/*	width: 100%;*/
+/*}*/
+/*.footer td, .footer tr {*/
+/*	width: 20px;*/
+/*}*/
+/*.footer td {*/
+/*	text-align: left;*/
+/*}*/
+/*table .column1 {*/
+/*	background-color:red;*/
+/*}*/
+/*table .column2 {*/
+/*	background-color:white;*/
+/*}*/
+/*table .column3 {*/
+/*	background-color: blue;*/
+/*}*/
+.footer-title {
+	color: orange;
+	font-size: 20px
 }
+.footer:{
+	width:100%;
+	margin:0 auto;
+}
+
