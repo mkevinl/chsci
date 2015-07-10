@@ -4,8 +4,6 @@ body {
 .container {
 	width: 960px;
 	margin: 150px auto 100px auto;
-	left: auto;
-	top: 0px;
 }
 .container > header {
 	margin: 0px auto;
@@ -19,6 +17,7 @@ body {
 .ci-header {
 	width: 86%;
 	margin: 35px auto 0;
+	z-index: 100;
 }
 .logo {
 	width: 100px;
@@ -89,4 +88,38 @@ header h2 {
 .clearfix:after {
 	display: block;
 	clear: both;
+}
+.footer-title {
+	color: orange;
+	font-size: 20px
+}
+footer .column1 {
+	margin-left: 35%;
+}
+footer .column {
+	float:left;
+	padding: 10px 70px 10px 25px;
+	line-height: 30px;
+}
+footer ol b {
+	color: #C2C2C2;
+	font-size: 29px;
+}
+footer ol li a {
+	text-decoration: none;
+	color: #6D6D6D;
+}
+footer ol li a:hover {
+	transition: linear 0.15s;
+	color: white;
+}
+footer ol li, footer ol li a {
+	font-size: 18px;
+	color: #8C8C8C;
+}
+.footer-container {
+	overflow: auto;
+	width: 100%;
+	position: relative;
+	background-color: #292929;
 }

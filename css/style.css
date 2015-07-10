@@ -1,5 +1,5 @@
 .pic1 {
-	width: 380px;
+	width: 360px;
 	height: 250px;
 	float: left;
 	border: 2px solid white;
@@ -103,37 +103,8 @@ a:active {
 .mission {
 	margin-bottom: 20px;
 }
-.footer-container {
+.carousel {
 	margin: 0 auto;
-	width: 90%;
-}
-/*.footer table {*/
-/*	margin: 30px auto 0px auto;*/
-/*	width: 100%;*/
-/*}*/
-/*.footer td, .footer tr {*/
-/*	width: 20px;*/
-/*}*/
-/*.footer td {*/
-/*	text-align: left;*/
-/*}*/
-/*table .column1 {*/
-/*	background-color:red;*/
-/*}*/
-/*table .column2 {*/
-/*	background-color:white;*/
-/*}*/
-/*table .column3 {*/
-/*	background-color: blue;*/
-/*}*/
-.footer-title {
-	color: orange;
-	font-size: 20px
-}
-footer .column1 {
-	margin-left: 20%;;
-}
-footer .column {
-	float:left;
-	margin: 20% 0px 0px 15%;
+	width: auto;
+	z-index: -1;
 }
