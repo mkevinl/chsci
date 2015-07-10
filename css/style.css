@@ -130,8 +130,10 @@ a:active {
 	color: orange;
 	font-size: 20px
 }
-.footer:{
-	width:100%;
-	margin:0 auto;
+footer .column1 {
+	margin-left: 20%;;
 }
-
+footer .column {
+	float:left;
+	margin: 20% 0px 0px 15%;
+}
