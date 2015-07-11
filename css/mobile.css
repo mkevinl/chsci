@@ -1,0 +1,11 @@
+@media only screen and (max-device-width: 480px) {
+    .carousel {
+        display:none;
+    }
+    .map-container{
+        display:none;
+    }
+    .container {
+        margin-top: 0px;
+    }
+}

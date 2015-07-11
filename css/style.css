@@ -46,6 +46,7 @@ a:active {
 	height: 100px;
 	float: left;
 	border-right: 1px solid black;
+	border-bottom: 1px solid black;
 }
 .episode h5 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
@@ -57,7 +58,7 @@ a:active {
 }
 .episode {
 	background-color: #8B8B8B;
-	margin: 7px;
+	margin: 8px;
 	border: 1px solid black;
 	height: 100px;
 	text-decoration: none;
@@ -97,7 +98,7 @@ a:active {
 	margin: 10px auto 0px auto;
 	background-color: white;
 }
-.active {
+.active-nav {
 	text-decoration: underline
 }
 .mission {
@@ -105,6 +106,20 @@ a:active {
 }
 .carousel {
 	margin: 0 auto;
-	width: auto;
+	  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px
+}
+.carousel .item {
+	margin: 0 auto;
 	z-index: -1;
+}
+.carousel img {
+	margin: 0 auto;
+}
+
+.fix-nav header{
+  position: fixed;
+  top: 10px;
 }
