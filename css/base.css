@@ -7,17 +7,18 @@ body {
 }
 .container-home {
 	width: 960px;
-	margin: 760px auto 100px auto;
+	margin: 560px auto 100px auto;
+	z-index: 5;
 }
 .container > header {
 	margin: 0px auto;
-	/*position: fixed;*/
-	/*top: 0px;*/
-	/*left: 0px;*/
+	position: fixed;
+	top: 0px;
+	left: 0px;
 	width:100%;
 	background-color: rgba(0,0,0,0.7);
 	border-bottom: 2px solid white;
-	z-index: 1;
+	z-index: 4;
 }
 .ci-header {
 	width: 86%;

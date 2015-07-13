@@ -106,20 +106,27 @@ a:active {
 }
 .carousel {
 	margin: 0 auto;
-	  width: 100%;
+	width: 100%;
+	height: 1000px;
   position: absolute;
   left: 0px;
-  top: 0px
+  top: 0px;
 }
 .carousel .item {
 	margin: 0 auto;
 	z-index: -1;
 }
-.carousel img {
+.carousel img, .carousel .item {
 	margin: 0 auto;
+	width: 100%;
+	height: 1000px;
 }
 
 .fix-nav header{
   position: fixed;
   top: 10px;
+}
+.carousel .carousel-indicators {
+	position: absolute;
+	bottom: 35%;
 }
