@@ -128,6 +128,9 @@ html, body {
 	max-height: 1000px;
 	height:100%;
 }
+.staff a:hover {
+	color: white;
+}
 .carousel-inner{height:100%;}
 @media (max-width: 767px) { 
 	body {
@@ -135,3 +138,4 @@ html, body {
 		padding-right: 0;
 	}
 }
+
