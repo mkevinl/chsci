@@ -7,10 +7,18 @@ body {
 }
 .container-home {
 	width: 960px;
-	margin: 560px auto 100px auto;
+	margin: 20px auto 100px auto;
 	z-index: 5;
 }
-.container > header {
+.container-header {
+	width: 960px;
+	margin: 0px auto 0px auto;
+	z-index: 5;
+}
+.container-home p {
+	z-index: 5;
+}
+.top-header {
 	margin: 0px auto;
 	position: fixed;
 	top: 0px;
@@ -117,6 +125,7 @@ footer ol li a {
 footer ol li a:hover {
 	transition: linear 0.15s;
 	color: white;
+	text-decoration: none;
 }
 footer ol li, footer ol li a {
 	font-size: 18px;
@@ -125,6 +134,5 @@ footer ol li, footer ol li a {
 .footer-container {
 	overflow: auto;
 	width: 100%;
-	position: relative;
 	background-color: #292929;
 }
