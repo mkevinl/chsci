@@ -139,3 +139,6 @@ h4 {
 	font-family: 'Gills Sans', 'Gils Sans MT', Calibri, sans-serif;
 	color: white;
 }
+html, body {
+	height:100%;
+}

@@ -111,10 +111,6 @@ a:active {
 .partnerships {
 	margin: 20 auto 0 auto;
 }
-
-html, body {
-	height:100%;
-}
 .container-home {
 	width: 100%;
 	margin: 0px auto;
@@ -123,9 +119,6 @@ html, body {
 	top: 100%;
 	background-image: url("http://i.imgur.com/x9HlWQi.png")
 }
-/*.carousel,.item,.active, .carousel-inner, .fill {*/
-/*	height:100%;*/
-/*}*/
 .carousel {
 	position: fixed;
 	z-index: 10;
@@ -158,7 +151,7 @@ html, body {
 .staff-container #cavero img{
 	width: 150px;
 }
-.seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header >h4 {
+.seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header > h4 {
 	font-size: 30px;
 	text-align: center;
 	margin: 20px 0px;
@@ -171,12 +164,18 @@ html, body {
 	width: 150px;
 	/*same as image width*/
 	float: left;
-	margin: 0 40px;
+	margin: 10px 40px 0px 40px;
 }
 .container-home-conent {
 	max-width: 960px;
 	margin: 0 auto;
 }
-.senior-content {
-	margin: 0 auto;
+.senior-content, .junior-content, .sophomore-content, .freshmen-content {
+	margin-left: 9%;
+}
+.seniors, .juniors, .sophomores{
+	margin-bottom: 400px;
+}
+.sophomore-content2 {
+	margin-left: 22%;
 }
