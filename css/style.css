@@ -121,7 +121,7 @@ html, body {
 	z-index: 20;
 	position: absolute;
 	top: 100%;
-	background:lightgray;
+	background-image: url("http://i.imgur.com/x9HlWQi.png")
 }
 /*.carousel,.item,.active, .carousel-inner, .fill {*/
 /*	height:100%;*/
