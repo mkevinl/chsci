@@ -73,7 +73,7 @@ a:active {
 }
 .map-container iframe {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 50px auto;
 }
 .description-title {
 	color: white;
@@ -115,8 +115,24 @@ a:active {
 html, body {
 	height:100%;
 }
-.carousel,.item,.active, .carousel-inner, .fill {
-	height:100%;
+.container-home {
+	width: 100%;
+	margin: 0px auto;
+	z-index: 20;
+	position: absolute;
+	top: 100%;
+	background:lightgray;
+}
+/*.carousel,.item,.active, .carousel-inner, .fill {*/
+/*	height:100%;*/
+/*}*/
+.carousel {
+	position: fixed;
+	z-index: 10;
+	bottom:0;
+	top:134px;
+	right:0;
+	left:0;
 }
 .fill img {
 	width: 100%;
@@ -133,4 +149,34 @@ html, body {
 }
 .carousel-inner {
 	height:100%;
+}
+.staff-container {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.staff-container #cavero img{
+	width: 150px;
+}
+.seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header >h4 {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px 0px;
+}
+#cavero h4 {
+	font-size: 20px;
+	text-align: center;
+}
+#cavero {
+	width: 150px;
+	/*same as image width*/
+	float: left;
+	margin: 0 40px;
+}
+.container-home-conent {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.senior-content {
+	margin: 0 auto;
 }

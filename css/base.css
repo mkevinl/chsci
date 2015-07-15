@@ -1,14 +1,10 @@
 body {
 	background-image: url("http://i.imgur.com/x9HlWQi.png") ;
+	margin: 0 auto;
 }
 .container {
 	width: 960px;
 	margin: 134px auto 100px auto;
-}
-.container-home {
-	width: 960px;
-	margin: 20px auto 100px auto;
-	z-index: 5;
 }
 .container-header {
 	width: 960px;
@@ -26,7 +22,7 @@ body {
 	width:100%;
 	background-color: rgba(0,0,0,0.7);
 	border-bottom: 2px solid white;
-	z-index: 4;
+	z-index: 30;
 }
 .ci-header {
 	width: 86%;
@@ -102,6 +98,9 @@ header h2 {
 	color: orange;
 	font-size: 20px
 }
+footer{
+	z-index:40;
+}
 footer .social-media {
 	margin-left: 35%;
 }
@@ -135,4 +134,8 @@ footer ol li, footer ol li a {
 .social-media img {
 	height: 40px;
 	border-radius: 13px;
+}
+h4 {
+	font-family: 'Gills Sans', 'Gils Sans MT', Calibri, sans-serif;
+	color: white;
 }
