@@ -151,7 +151,7 @@ a:active {
 .staff-container #cavero img{
 	width: 150px;
 }
-.seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header > h4 {
+.seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header, .instructors > header > h4 {
 	font-size: 30px;
 	text-align: center;
 	margin: 20px 0px;
@@ -173,7 +173,13 @@ a:active {
 .senior-content, .junior-content, .sophomore-content, .freshmen-content {
 	margin-left: 9%;
 }
-.seniors, .juniors, .sophomores{
+.instructor-content {
+	margin-left: 37%;
+}
+.instructors {
+	margin-bottom: 300px;
+}
+.seniors, .juniors, .sophomores {
 	margin-bottom: 600px;
 }
 .sophomore-content2 {
