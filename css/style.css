@@ -123,8 +123,22 @@ a:active {
 	position: fixed;
 	z-index: 10;
 	bottom:0;
-	top:134px;
+	top: 0px;
 	right:0;
+	left:0;
+}
+#pic1 {
+	position: fixed;
+	bottom: 0;
+	top: -30%;
+	right: 0;
+	left:0;
+}
+#pic7 {
+	position: fixed;
+	bottom: 0;
+	top: -15%;
+	right: 0;
 	left:0;
 }
 .fill img {
@@ -133,10 +147,10 @@ a:active {
 	background-position: center center;
 	background-size: cover;
 }
-.fill {
-	max-height: 1000px;
-	height:100%;
-}
+/*.fill {*/
+/*	max-height: 1000px;*/
+/*	height:1%;*/
+/*}*/
 .staff a:hover {
 	color: white;
 }

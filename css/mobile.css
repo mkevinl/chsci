@@ -6,10 +6,13 @@
         display:none;
     }
     .container {
-        margin-top: 0px;
+        margin-top: 20%;
         width: 100%;
     }
     nav ol li {
         font-size: 250%;
+    }
+    .episode h5 {
+        font-size: 200%;
     }
 }
