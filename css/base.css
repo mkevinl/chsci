@@ -94,10 +94,6 @@ header h2 {
 	margin: 10px 0px;
 	text-shadow: 0px 0px 8px #000000;
 }
-.footer-title {
-	color: orange;
-	font-size: 20px
-}
 footer{
 	z-index:40;
 }
