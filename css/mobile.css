@@ -9,13 +9,58 @@
   .episode h5 {
     font-size: 170%;
   }
-  /*.episode p {*/
-  /*  font-size: 120%;*/
-  /*}*/
   .carousel {
     display: none;
   }
   .container-home {
-    top: 15%;
+    top: 6%;
+  }
+  .container-home p {
+    font-size: 55px;
+    line-height: 80px;
+  }
+  .container-home h2 {
+    font-size: 65px;
+    line-height: 70px;
+    margin: 100px 0 50px 0;
+  }
+  .map-container {
+    display: none;
+  }
+  .episode p {
+    display: none;
+  }
+  .episode b {
+    margin: 36px 20px;
+  }
+  .staff-container {
+    width: 95%;
+  }
+  .staff-container #cavero img {
+	  width: 175px;
+  }
+  .seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header, .instructors > header > h4 {
+  	font-size: 30px;
+  	text-align: center;
+  	margin: 50px 0px;
+  }
+  .instructors {
+  	margin-bottom: 400px;
+  }
+  .seniors, .juniors {
+  	margin-bottom: 800px;
+  }
+  .sophomore-content2 {
+  	margin-left: 23%;
+  	margin-bottom: 400px;
+  }
+  .sophomore-content {
+    margin-bottom: 800px;
+  }
+  .senior-content, .junior-content, .sophomore-content, .freshmen-content {
+	  margin-left: 11%;
+  }
+  .instructor-content {
+  	margin-left: 37%;
   }
 }

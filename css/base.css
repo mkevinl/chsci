@@ -38,6 +38,9 @@ nav {
 	width: 100%;
 	margin: 0 auto;
 }
+nav li {
+	/*font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;*/
+}
 nav a {
 	transition:all linear 0.1s;
 	color: #3DA0FF;
