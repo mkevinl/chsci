@@ -28,7 +28,7 @@ a:active {
 .staff tr:hover {
 	background-color: gray;
 }
-.description {
+.description p {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 	color: white;
 	width: 85%;
@@ -79,6 +79,7 @@ a:active {
 	color: white;
 	width: 85%;
 	margin: 0px auto 15px auto;
+	font-size: 200%;
 }
 .video {
 	margin: 10px auto;
@@ -107,9 +108,6 @@ a:active {
 .staff-content {
 	color: white;
 	text-align: center;
-}
-.partnerships {
-	margin: 20 auto 0 auto;
 }
 .container-home {
 	width: 100%;
@@ -195,4 +193,7 @@ a:active {
 .sophomore-content2 {
 	margin-left: 22%;
 	margin-bottom: 300px;
+}
+footer li {
+	
 }

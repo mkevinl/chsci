@@ -1,18 +1,21 @@
-@media only screen and (max-device-width: 480px) {
-  .carousel {
-    display:none;
-  }
-  .map-container{
-    display:none;
-  }
+@media only screen and (max-device-width: 375px) {
   .container {
     margin-top: 20%;
-  width: 100%;
+    width: 100%;
   }
   nav ol li {
     font-size: 250%;
   }
   .episode h5 {
-    font-size: 200%;
+    font-size: 170%;
+  }
+  /*.episode p {*/
+  /*  font-size: 120%;*/
+  /*}*/
+  .carousel {
+    display: none;
+  }
+  .container-home {
+    top: 15%;
   }
 }
