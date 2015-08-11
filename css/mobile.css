@@ -36,7 +36,7 @@
   .staff-container {
     width: 95%;
   }
-  .staff-container #cavero img {
+  .staff-container .staff-headshot img {
 	  width: 175px;
   }
   .seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header, .instructors > header > h4 {
