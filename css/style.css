@@ -156,36 +156,41 @@ a:active {
 	height: 100%;
 	margin: 0 auto;
 }
-.staff-container #cavero img{
-	width: 150px;
+.staff-container .staff-headshot img{
+	width: 175px;
 }
 .seniors > header > h4, .juniors > header > h4, .sophomores > header > h4, .freshmen > header, .instructors > header > h4 {
 	font-size: 30px;
 	text-align: center;
 	margin: 20px 0px;
 }
-#cavero h4 {
+.staff-headshot h4 {
 	font-size: 20px;
 	text-align: center;
+	margin: 5px auto 0px auto;
 }
-#cavero {
-	width: 150px;
+.staff-headshot {
+	width: 175px;
 	/*same as image width*/
-	float: left;
-	margin: 10px 40px 0px 40px;
+	display: inline-block;
+	margin: 20px 40px 0px 40px;
 }
 .container-home-conent {
 	max-width: 960px;
 	margin: 0 auto;
 }
-.senior-content, .junior-content, .sophomore-content, .freshmen-content {
+.instructor-content, .senior-content, .junior-content, .sophomore-content, .sophomore-content2, .freshmen-content {
+	text-align: center;
+}
+.seniors > header, .juniors > header, .sophomores >header, .freshmen >header {
+	margin: 50px auto -10px auto;
+}
+/*.senior-content, .junior-content, .sophomore-content, .freshmen-content {
 	margin-left: 9%;
 }
 .instructor-content {
-	margin-left: 37%;
-}
-.instructors {
-	margin-bottom: 300px;
+	display: inline-block;
+	margin: 0 auto;
 }
 .seniors, .juniors, .sophomores {
 	margin-bottom: 600px;
@@ -193,4 +198,4 @@ a:active {
 .sophomore-content2 {
 	margin-left: 22%;
 	margin-bottom: 300px;
-}
+}*/
