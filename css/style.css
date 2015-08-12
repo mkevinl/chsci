@@ -2,7 +2,7 @@
 	width: 80%;
 	margin: 0 auto;
 }
-section > article > h2, section > article >p {
+section > article > h2, section > article >p, article > h3{
 	width: 80%;
 	margin: 0 auto;
 }
@@ -179,23 +179,20 @@ a:active {
 	max-width: 960px;
 	margin: 0 auto;
 }
-.instructor-content, .senior-content, .junior-content, .sophomore-content, .sophomore-content2, .freshmen-content {
+.instructor-content, .senior-content, .junior-content, .sophomore-content, .freshmen-content, .four-row {
 	text-align: center;
 }
 .seniors > header, .juniors > header, .sophomores >header, .freshmen >header {
 	margin: 50px auto -10px auto;
 }
-/*.senior-content, .junior-content, .sophomore-content, .freshmen-content {
-	margin-left: 9%;
+.four-row .staff-headshot {
+	margin: 20px 15px;
 }
-.instructor-content {
-	display: inline-block;
-	margin: 0 auto;
+.awards2014 article, .awards2013 article, .awards2012 article, .awards2011 article, .awards2010 article, .awards2009 article, .awards2008 article, .awards2007 article, .awards2006 article, .awards2005 article, .awards2004 article, .awards2003 article {
+	margin-top: 20px;
 }
-.seniors, .juniors, .sophomores {
-	margin-bottom: 600px;
+.awards h3 {
+	font-size: 25px;
+	margin-bottom: 5px;
 }
-.sophomore-content2 {
-	margin-left: 22%;
-	margin-bottom: 300px;
-}*/
+.
