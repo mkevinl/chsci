@@ -2,7 +2,7 @@
 	width: 80%;
 	margin: 0 auto;
 }
-section > article > h2, section > article >p, article > h3{
+section > article > h2, section > article >p, .awards h3{
 	width: 80%;
 	margin: 0 auto;
 }
