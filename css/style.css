@@ -128,7 +128,7 @@ a:active {
 #pic1 {
 	position: fixed;
 	bottom: 0;
-	top: -28%;
+	top: 2%;
 	right: 0;
 	left:0;
 }
@@ -197,4 +197,10 @@ a:active {
 }
 .awards p {
 	padding-left: 15px;
+}
+.item {
+	height: 3000px;
+}
+.carousel-img {
+	height: 200%;
 }
